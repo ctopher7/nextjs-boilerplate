@@ -16,8 +16,4 @@ const Layout = (props)=>
     {props.children}
 </>
 
-const stateProps = state =>({
-    lang:state.global.lang
-})
-
-export default withRedux(connect(stateProps)(Layout))
+export default Layout

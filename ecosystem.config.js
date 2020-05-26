@@ -2,7 +2,7 @@ module.exports = {
     apps : [{
         name: 'web-app',
         script: './node_modules/next/dist/bin/next',
-        args:'start',
+        args:'start -p 8888',
         instances: 0,
         exec_mode:'cluster',
         autorestart: true,

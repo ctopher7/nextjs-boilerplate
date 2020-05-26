@@ -40,3 +40,5 @@ pm2 start
 #run using npm or yarn
 npm start
 ```
+current production port : 8888
+to modify port : change the args on ecosystem.config.js 
